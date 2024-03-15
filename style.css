@@ -1,0 +1,34 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    display: flex;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.sidebar {
+    display: grid;
+    align-content: start;
+    justify-content: space-evenly;
+    row-gap: 1rem;   
+}
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem; 
+    align-content:center;
+    justify-content: space-evenly;
+    padding: 2rem;
+    margin: 2rem;
+
+}
